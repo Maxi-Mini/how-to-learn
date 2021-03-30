@@ -8,7 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color:  #f2f2f2;
-  color:black
+  color:black;
 }
 .content {
 
@@ -82,10 +82,7 @@
   z-index: 1;
 
 }
-.header__square-pic {
-  
 
-}
 .description {
   display: flex;
   margin-top: 100px;
@@ -232,7 +229,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
+  
 
 }
 .section-subtitle_theme_dark {
@@ -250,9 +247,12 @@
 }
 .table__cell_theme_dark {
   width: 200px;
-  margin-bottom: 80px;
+  color: white;
+  margin-right: 0;
   margin-top: 80px;
-
+  width: 200px;
+  margin-bottom: 80px;
+  
 }
 .table__heading_theme_dark {
   margin-bottom: 20px;
